@@ -1,0 +1,9 @@
+1. create_account_test.py
+Executing test method test_1_confirmRegistration(self) in above test module will create a
+new account but before doing that change "abc20@hotmail.com"/"newpass20" to "abc21@hotmail.com"/"newpass21"
+
+2. purchase_products_page.py
+Executing test method verifyFlatRate(self) in above test module will log into an already existing account, e.g.
+login("abc11@hotmail.com", "newpass11") where the customer added a LG LCD TV to his wish-list.
+Make sure that this TV exists is added to the wish-list.
+
